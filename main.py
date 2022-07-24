@@ -22,6 +22,7 @@ print("GPU", tf.config.list_physical_devices("GPU"))
 ###
 
 input_data = sys.argv[1]
+print(f"Input data: {input_data}")
 
 with tarfile.open(input_data) as f:
     f.extractall()

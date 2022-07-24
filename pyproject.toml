@@ -6,7 +6,7 @@ authors = ["nikstur <nikstur@outlook.com>"]
 license = "MIT"
 
 [tool.poetry.dependencies]
-python = "3.8.13"
+python = "3.8.10"
 matplotlib = "^3.5.1"
 tensorflow-text = "2.8.*"
 tf-models-official = "2.7.0"

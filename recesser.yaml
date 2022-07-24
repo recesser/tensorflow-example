@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: TemplateWorkflow
+metadata:
+  name: bert-text-classification
+spec:
+  inputs:
+    - AQGvpwJuADNfriKSiS_iCVE9x_TBqPnJMiaEmHKGuQPGIQ
+  template:
+    name: python-tensorflow
+    version: 1.0.0
+  dependencies: requirements.txt
+  entrypoint: main.py

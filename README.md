@@ -38,7 +38,7 @@ After downloading the dataset from the internet you need to upload it to the Rec
 
 First, set the the address of your system as the environment variable `RECESSER_ADDR` and your token as `RECESSER_TOKEN`:
 
-``bash
+```bash
 export RECESSER_ADDR="<address of your system>"
 export RECESSER_TOKEN="<your token>"
 ```
@@ -58,8 +58,8 @@ Then, register this repository with the system:
 rcssr repository add "recesser/tensorflow-example"
 ```
 
-The CLI will generate an SSH key register it with the Recesser system for that repository and then
-print it out on the command line. You need to copy this key and set it as a read-only [deploy
+The CLI will generate an SSH key, register it inside the Recesser system and print it out on the
+command line. You need to copy this key and set it as a read-only [deploy
 key](https://docs.github.com/en/developers/overview/managing-deploy-keys) on your GitHub repository.
 
 Now after a short while (less than 1min on the default setting), Recesser should have picked up your

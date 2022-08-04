@@ -1,4 +1,4 @@
-apiVersion: v1
+apiVersion: recesser/v1beta1
 kind: TemplateWorkflow
 metadata:
   name: bert-text-classification
